@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-img = cv2.imread("2.png", 0)  # 读取彩色图像(BGR)
+img = cv2.imread("images/2.png", 0)  # 读取彩色图像(BGR)
 image = np.float64(img)
 
 rows, cols = image.shape
@@ -34,3 +34,4 @@ for i in range(0, len(images)):
     plt.subplot(2, 3, i + 1 + 3), plt.imshow(fimg, cmap='gray'), plt.title(title[i])
 
 plt.show()
+

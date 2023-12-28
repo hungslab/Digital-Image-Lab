@@ -3,7 +3,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 # 读取图像
-image = cv2.imread('1.jpg')
+image = cv2.imread('images/1.jpg')
 
 # 比例放大至1.5倍
 B1 = cv2.resize(image, None, fx=1.5, fy=1.5)

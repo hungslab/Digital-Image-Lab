@@ -4,8 +4,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # 读取两幅图像
-foreground = cv2.imread('1.jpg', 0)
-background = cv2.imread('2.jpg', 0)
+foreground = cv2.imread('images/1.jpg', 0)
+background = cv2.imread('images/2.jpg', 0)
 
 # 图像叠加
 merged_image = cv2.add(foreground, background)

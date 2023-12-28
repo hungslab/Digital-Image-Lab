@@ -5,7 +5,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 # 读取图像
-image = cv2.imread('../sy1/1.jpg', 0)
+image = cv2.imread('images/1.jpg', 0)
 
 # 进行离散余弦变换
 dct = cv2.dct(np.float32(image))

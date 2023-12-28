@@ -3,7 +3,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 # 读取图像
-I = cv2.imread('1.jpg')
+I = cv2.imread('images/1.jpg')
 
 # 图像逆时针旋转45度
 M = cv2.getRotationMatrix2D((I.shape[1] / 2, I.shape[0] / 2), 45, 1)
